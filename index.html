@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bài Tập phụ JS buổi 4</title>
+
+        <!-- BOOSTRAP  -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    </head>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-8 mt-5">
+            <h2 class="mb-4">Xuất ngày trước và sau</h2>
+            <form>
+                <div class="form-group">
+                    <label for="inputDate">Nhập ngày tháng năm</label>
+                    <input type="date" class="form-control" id="inputDate">
+                </div>
+                <button id="ketQua" type="button" class="btn btn-primary">Kết quả</button>
+                <p id="ngayTruoc" class="alert alert-success mt-5"></p>
+                <p id="ngaySau" class="alert alert-primary mt-2"></p>
+            </form>
+        </div>
+        <div class="col-8 mt-5">
+            <h2 class="mb-4">Xuất số ngày của tháng</h2>
+            <form>
+                <div class="form-group">
+                    <label for="inputMonth">Nhập tháng năm</label>
+                    <input type="month" class="form-control" id="inputMonth">
+                </div>
+                <button id="ketQua2" type="button" class="btn btn-primary">Kết quả 2</button>
+                <p id="tbSoNgay" class="alert alert-success mt-5"></p>
+            </form>
+        </div>
+        <div class="col-8 mt-5">
+            <h2 class="mb-4">Xuất cách đọc số có 3 chữ số</h2>
+            <form>
+                <div class="form-group">
+                    <label for="num3Ditgit">Nhập số từ 100 - 999</label>
+                    <input type="number" class="form-control" id="num3Ditgit" min="100" max="999">
+                </div>
+                <button id="ketQua3" type="button" class="btn btn-primary">Kết quả 3</button>
+                <p id="cachDoc" class="alert alert-success mt-5"></p>
+            </form>
+        </div>
+        <div class="col-8 mt-5">
+            <h2 class="mb-4">Xác định khoảng cách xa nhất từ nhà đến trường</h2>
+            <form>
+                <div class="form-group row">
+                    <div class="col-8">
+                        <label for="name1">Tên học sinh 1</label>
+                        <input type="text" class="form-control" id="name1">
+                    </div>
+                    <div class="col-4">
+                        <label for="location1">Vị trí</label>
+                        <input type="number" class="form-control" id="location1">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8">
+                        <label for="name2">Tên học sinh 2</label>
+                        <input type="text" class="form-control" id="name2">
+                    </div>
+                    <div class="col-4">
+                        <label for="location2">Vị trí</label>
+                        <input type="number" class="form-control" id="location2">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-8">
+                        <label for="name3">Tên học sinh 3</label>
+                        <input type="text" class="form-control" id="name3">
+                    </div>
+                    <div class="col-4">
+                        <label for="location3">Vị trí</label>
+                        <input type="number" class="form-control" id="location3">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="locationSchool">Nhập vị trí của trường</label>
+                    <input type="number" class="form-control" id="locationSchool">
+                </div>
+                <button id="btnKhoangCach" type="button" class="btn btn-primary">Kết quả 4</button>
+                <p id="tbKhoangCach" class="alert alert-success mt-5"></p>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="./Js/main.js"></script>
+</body>
+
+</html>
